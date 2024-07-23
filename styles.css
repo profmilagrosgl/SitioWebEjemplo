@@ -1,0 +1,91 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo pastel para la barra de navegación */
+}
+
+/* Estilo para el carrusel */
+.carousel-inner img {
+    height: 500px; /* Define la altura de las imágenes del carrusel */
+    object-fit: cover; /* Asegura que las imágenes cubran el área del carrusel */
+}
+
+/* Estilo para la sección de productos */
+#products {
+    background-color: #fff0f5; /* Fondo color lavanda pálido para la sección de productos */
+    padding: 50px 0; /* Añade un relleno superior e inferior a la sección */
+}
+
+#products h2 {
+    color: #6a5acd; /* Color del texto del título en lavanda */
+}
+
+/* Estilo para las tarjetas de productos */
+#products .card {
+    margin-bottom: 30px; /* Añade un margen inferior a cada tarjeta de producto */
+    background-color: #e6e6fa; /* Color de fondo pastel para las tarjetas */
+}
+
+/* Estilo para las imágenes de las tarjetas de productos */
+.product-card {
+    height: 100%; /* Hace que la tarjeta ocupe el 100% de la altura disponible */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img {
+    flex: 1 0 auto; /* Permite que la imagen crezca y ocupe el espacio disponible */
+    height: 200px; /* Altura fija para las imágenes de productos */
+    object-fit: cover; /* Asegura que las imágenes cubran el área de la tarjeta */
+}
+
+.product-card .card-body {
+    flex: 1 0 auto; /* Permite que el cuerpo de la tarjeta crezca y ocupe el espacio disponible */
+}
+
+/* Estilo para la sección de nosotros */
+#about {
+    background-color: #faf0e6; /* Fondo color lino para la sección de nosotros */
+    padding: 50px 0; /* Añade un relleno superior e inferior a la sección */
+}
+
+#about h2 {
+    color: #deb887; /* Color del texto del título en marrón claro */
+}
+
+/* Estilo para la sección de contacto */
+#contact {
+    background-color: #f0f8ff; /* Fondo color azul alice para la sección de contacto */
+    padding: 50px 0; /* Añade un relleno superior e inferior a la sección */
+}
+
+#contact h2 {
+    color: #4682b4; /* Color del texto del título en azul acero */
+}
+
+/* Estilo para los botones */
+.btn-primary {
+    background-color: #ffb6c1; /* Color de fondo del botón primario en rosa claro */
+    border-color: #ffb6c1; /* Color del borde del botón primario en rosa claro */
+}
+
+.btn-primary:hover {
+    background-color: #ff69b4; /* Color de fondo del botón primario al pasar el ratón en rosa intenso */
+    border-color: #ff69b4; /* Color del borde del botón primario al pasar el ratón en rosa intenso */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #f8f9fa; /* Color de fondo pastel para el pie de página */
+    color: #6c757d; /* Color de texto */
+    width: 100%;
+}
+
+footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo con transparencia para la sección inferior del pie de página */
+    padding: 10px 0; /* Relleno para la sección inferior del pie de página */
+}
